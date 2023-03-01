@@ -59,11 +59,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun getFormulario(): Form {
         val preguntas = mutableListOf(
-            Question(1, "¿Cuál es tu color favorito?", listOf("Rojo", "Azul", "Verde", "Amarillo"), 1),
-            Question(2, "¿Cuál es tu comida favorita?", listOf("Pizza", "Hamburguesa", "Tacos", "Sushi"), 0),
-            Question(3, "¿Cuál es tu deporte favorito?", listOf("Fútbol", "Béisbol", "Baloncesto", "Tenis"), 2)
+            Question(1, "¿Cuál es tu color favorito?","random", listOf("Rojo", "Azul", "Verde", "Amarillo"), 1),
+            Question(2, "¿Cuál es tu comida favorita?","random",  listOf("Pizza", "Hamburguesa", "Tacos", "Sushi"), 0),
+            Question(3, "¿Cuál es tu deporte favorito?","random",  listOf("Fútbol", "Béisbol", "Baloncesto", "Tenis"), 2)
         )
-        return Form(1, "Formulario de ejemplo", preguntas)
+        return Form(1, "random", "Formulario de ejemplo", preguntas)
     }
 
 
